@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="container mt-3">
-        <header class="text-md-center">
+        <header class="text-sm-center">
             <h1 class="sign__up-header-title">Create an account</h1>
             <p class="sign__up-header-description">Start your Foodie journey today - It's free!</p>
         </header>
@@ -55,7 +55,7 @@
             </div>
 
             <div class="text-center">
-                <div class="d-grid gap-2 d-md-flex">
+                <div class="d-grid gap-2 d-sm-flex">
                     <a href="/" class="btn btn-outline-danger flex-fill">
                         <i class="bi bi-google"></i> Sign in with Google
                     </a>
@@ -63,7 +63,7 @@
                         <i class="bi bi-facebook"></i> Sign in with Facebook
                     </a>
                 </div>
-                <p class="mt-2 sign__up-footer-text">Already have an account? <a href="sign_in.php" class="sign__up-footer-login">Log in here</a></p>
+                <p class="mt-3 sign__up-footer-text">Already have an account? <a href="sign_in.php" class="sign__up-footer-login">Log in here</a></p>
             </div>
         </footer>
     </div>

@@ -27,6 +27,7 @@ body {
   background-color: var(--secondary-color);
   font-size: large;
   border-radius: 12px;
+  border: none;
 }
 
 .sign__up-footer-text {
