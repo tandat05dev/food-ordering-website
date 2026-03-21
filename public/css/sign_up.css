@@ -28,6 +28,7 @@ body {
   font-size: large;
   border-radius: 12px;
   border: none;
+  font-weight: 600;
 }
 
 .sign__up-footer-text {
@@ -44,6 +45,7 @@ body {
 .sign__up-footer-login {
   text-decoration: none;
   color: var(--secondary-color);
+  font-weight: 700;
 }
 
 .btn {

@@ -13,7 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <!-- CSS -->
-    <link rel="stylesheet" href="../public/css/sign_up.css" />
+    <link rel="stylesheet" href="../../public/css/sign_up.css" />
+    <!-- Javascript -->
+    <script src="../../public/js/sign_up.js" defer></script>
 </head>
 <body>
     <div class="container mt-3">
@@ -22,23 +24,23 @@
             <p class="sign__up-header-description">Start your Foodie journey today - It's free!</p>
         </header>
 
-        <form action="" method="post">
+        <form action="../controllers/sign_up_controller.php" method="post">
             <main>
                 <div class="mb-3">
                     <label for="formFullName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="formFullName" placeholder="John Smith">
+                    <input type="text" class="form-control" id="formFullName" name="full_name" placeholder="John Smith" required>
                 </div>
                 <div class="mb-3">
                     <label for="formEmail" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="formEmail" placeholder="hello@example.com">
+                    <input type="email" class="form-control" id="formEmail" name="email" placeholder="hello@gmail.com" required>
                 </div>
                 <div class="mb-3">
                     <label for="formPassword" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="formPassword" placeholder="Min. 8 characters">
+                    <input type="password" class="form-control" id="formPassword" name="password" placeholder="Min. 8 characters" minlength="8" required>
                 </div>
                 <div class="mb-3">
                     <label for="formConfirmPassword" class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" id="formConfirmPassword" placeholder="********">
+                    <input type="password" class="form-control" id="formConfirmPassword" name="confirm_password" placeholder="Re-enter the password" minlength="8" required>
                 </div>
                 <div class="text-center mb-3">
                     <p class="sign__up-footer-text">I agree to the <a href="" class="sign__up-footer-login">Terms of Services</a> and <a href="" class="sign__up-footer-login">Privacy Policy</a></p>

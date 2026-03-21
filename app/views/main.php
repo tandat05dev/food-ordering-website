@@ -45,24 +45,24 @@
   <body>
     <header>
       <!-- Header and nav -->
-      <?php include("../components/header.php") ?>
+      <?php include("../../components/header.php") ?>
     </header>
 
     <main>
       <!-- Hero -->
-      <?php include("../components/hero.php"); ?>
+      <?php include("../../components/hero.php"); ?>
       <!-- Best seller -->
-      <?php include("../components/best_seller.php"); ?>
+      <?php include("../../components/best_seller.php"); ?>
       <!-- Menu -->
-      <?php include("../components/menu.php") ?>
+      <?php include("../../components/menu.php") ?>
       <!-- Feedbacks -->
-      <?php include("../components/feedback.php") ?>
+      <?php include("../../components/feedback.php") ?>
       <!-- Reservation -->
     </main>
 
     <footer>
       <!-- Footer -->
-      <?php include("../components/footer.php") ?>
+      <?php include("../../components/footer.php") ?>
     </footer>
   </body>
 </html>

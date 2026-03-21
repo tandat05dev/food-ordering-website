@@ -1,17 +1,17 @@
 <?php
 
 $host = "127.0.0.1";
-$dbname = "food";
-$port = 3307;
+$dbname = "restaurant";
+$port = 3306;
 $username = "root";
-$password = "";
+$password = "Tandat03082005@";
 
 $dsn = "mysql:host=$host;dbname=$dbname;port=$port;charset=utf8mb4";
 
 try {
     $pdo = new PDO($dsn, $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connect successfully";
+    // echo "Connect successfully";
 } catch(PDOException $e) {
-    die("Connection failed: " . $e->getMessage());
+    throw new Exception("Database error: " . $e->getMessage());
 }

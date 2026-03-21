@@ -34,6 +34,7 @@ body {
   font-size: large;
   border-radius: 12px;
   border: none;
+  font-weight: 600;
 }
 
 .sign__in-footer-text {
@@ -44,6 +45,7 @@ body {
 .sign__in-footer-signup {
   text-decoration: none;
   color: var(--secondary-color);
+  font-weight: 600;
 }
 
 .form-label {
@@ -54,4 +56,12 @@ body {
 
 .btn {
   border-color: var(--ternary-color);
+}
+
+.sign__in-main-forgot-password {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
