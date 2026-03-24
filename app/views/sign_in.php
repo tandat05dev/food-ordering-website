@@ -28,11 +28,24 @@
             <main>
                 <div class="mb-3">
                     <label for="formEmail" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" name="email" id="formEmail" placeholder="hello@gmail.com" required>
+                    <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="formEmail"
+                        placeholder="hello@gmail.com"
+                        required>
                 </div>
                 <div class="mb-3">
                     <label for="formPassword" class="form-label">Password</label>
-                    <input type="password" class="form-control" name="password" id="formPassword" placeholder="Min. 8 characters" minlength="8" required>
+                    <input
+                        type="password"
+                        class="form-control"
+                        name="password"
+                        id="formPassword"
+                        placeholder="Min. 8 characters"
+                        minlength="8"
+                        required>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="form-check">
@@ -63,7 +76,9 @@
                         <i class="bi bi-facebook"></i> Sign in with Facebook
                     </a>
                 </div>
-                <p class="mt-3 sign__in-footer-text">Don't have an account? <a href="sign_up.php" class="sign__in-footer-signup">Sign up for free</a></p>
+                <p class="mt-3 sign__in-footer-text">Don't have an account?
+                    <a href="sign_up.php" class="sign__in-footer-signup">Sign up for free</a>
+                </p>
             </div>
         </footer>
     </div>

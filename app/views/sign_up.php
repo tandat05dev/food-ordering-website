@@ -28,22 +28,52 @@
             <main>
                 <div class="mb-3">
                     <label for="formFullName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="formFullName" name="full_name" placeholder="John Smith" required>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="formFullName"
+                        name="full_name"
+                        placeholder="John Smith"
+                        required>
                 </div>
                 <div class="mb-3">
                     <label for="formEmail" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="formEmail" name="email" placeholder="hello@gmail.com" required>
+                    <input
+                        type="email"
+                        class="form-control"
+                        id="formEmail"
+                        name="email"
+                        placeholder="hello@gmail.com"
+                        required>
                 </div>
                 <div class="mb-3">
                     <label for="formPassword" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="formPassword" name="password" placeholder="Min. 8 characters" minlength="8" required>
+                    <input
+                        type="password"
+                        class="form-control"
+                        id="formPassword"
+                        name="password" 
+                        placeholder="Min. 8 characters"
+                        minlength="8"
+                        required>
                 </div>
                 <div class="mb-3">
                     <label for="formConfirmPassword" class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" id="formConfirmPassword" name="confirm_password" placeholder="Re-enter the password" minlength="8" required>
+                    <input
+                        type="password"
+                        class="form-control"
+                        id="formConfirmPassword" 
+                        name="confirm_password"
+                        placeholder="Re-enter the password"
+                        minlength="8"
+                        required>
                 </div>
                 <div class="text-center mb-3">
-                    <p class="sign__up-footer-text">I agree to the <a href="" class="sign__up-footer-login">Terms of Services</a> and <a href="" class="sign__up-footer-login">Privacy Policy</a></p>
+                    <p class="sign__up-footer-text">I agree to the
+                        <a href="" class="sign__up-footer-login">Terms of Services</a>
+                        and
+                        <a href="" class="sign__up-footer-login">Privacy Policy</a>
+                    </p>
                 </div>
                 <div class="d-grid">
                     <button type="submit" class="btn btn-primary sign__up-main-btn">Create Account</button>
@@ -65,7 +95,9 @@
                         <i class="bi bi-facebook"></i> Sign in with Facebook
                     </a>
                 </div>
-                <p class="mt-3 sign__up-footer-text">Already have an account? <a href="sign_in.php" class="sign__up-footer-login">Log in here</a></p>
+                <p class="mt-3 sign__up-footer-text">Already have an account?
+                    <a href="sign_in.php" class="sign__up-footer-login">Log in here</a>
+                </p>
             </div>
         </footer>
     </div>

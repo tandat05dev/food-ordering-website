@@ -1,0 +1,8 @@
+Func1: Missing 1 of 4 fields -> Expected: Please fill out this field (Client side validation)
+Func2: Email field missing @ -> Expected: Please include an '@' in the email address (Client side validation)
+Func3: Email field include @ but missing . after @ -> Expected: return "Invalid email format." (Server response when invalid input)
+Func4: Password less than 8 characters -> Expected: Client side validation
+Func5: Confirm password less than 8 characters -> Expected: Client side validation
+Func6: Confirm password diff with password -> Expected: Confirm password and password length must be the same (Server response)
+Func7: Email already registered in database -> Expected: Email already registered (Server response)
+Func8: Create successfully -> Expected: Create account successfully

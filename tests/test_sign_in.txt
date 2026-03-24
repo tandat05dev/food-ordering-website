@@ -1,0 +1,6 @@
+Func1: Missing 1 of 2 fields -> Expected: Please fill out this field (Client side validation)
+Func2: Email field missing @ -> Expected: Please include an '@' in the email address (Client side validation)
+Func3: Email field include @ but missing . after @ -> Expected: return "Invalid email format." (Server response when invalid input)
+Func4: Password less than 8 characters -> Expected: Client side validation
+Func5: Create successfully without ticking checkbox -> Expected: Sign in successfully and no create row in refresh_token table
+Func6: Create successfully without ticking checkbox -> Expected: Sign in successfully and creating row in refresh_token table

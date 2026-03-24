@@ -1,0 +1,53 @@
+.card {
+  background-color: #f3f4f6;
+  box-shadow:
+    0 1px 3px 0 rgb(0, 0, 0, 0.1),
+    0 1px 2px -1px rgb(0, 0, 0, 0.1);
+}
+
+.card-image {
+  height: 200px;
+  width: auto;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: 700;
+  white-space: nowrap; /* Ngăn văn bản xuống dòng */
+  overflow: hidden; /* Ẩn phần văn bản dư thừa */
+  text-overflow: ellipsis; /* Thêm dấu "..." vào cuối */
+}
+
+.card-text {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+.star {
+  font-size: 0.75rem;
+  color: #fdc700;
+}
+
+.card-rating {
+  color: #6a7282;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.card-btn {
+  color: #ffffff;
+  background-color: #ff8a00;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px 0 rgb(0, 0, 0 / 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-btn:hover {
+  background-color: #e67e00; /* Đậm hơn một chút */
+  transform: translateY(-1px); /* Nút bay lên nhẹ */
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}

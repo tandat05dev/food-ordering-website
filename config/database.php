@@ -11,7 +11,6 @@ $dsn = "mysql:host=$host;dbname=$dbname;port=$port;charset=utf8mb4";
 try {
     $pdo = new PDO($dsn, $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    // echo "Connect successfully";
 } catch(PDOException $e) {
     throw new Exception("Database error: " . $e->getMessage());
 }
